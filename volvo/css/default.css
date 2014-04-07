@@ -1,0 +1,93 @@
+body {
+     background: none repeat scroll 0% 0% #232425;
+     color: #FFFFFF;
+}
+
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+#navBarBGRepeat {
+     background-color: #0B1213;
+     background-image: url("http://media.steampowered.com/apps/dota2/images/header/header_bg_repeat.jpg");
+     background-repeat: repeat-x;
+     height: 68px;
+     margin-bottom: 1px;
+     position: relative;
+     width: 100%;
+}
+
+#navBarShadow {
+     background-image: url("http://media.steampowered.com/apps/dota2/images/header/header_bg_shadow.png");
+     background-repeat: repeat-x;
+     height: 29px;
+     left: 0px;
+     position: absolute;
+     top: 68px;
+     width: 100%;
+     z-index: 100;
+}
+
+#navBarBG {
+     background-image: url("http://media.steampowered.com/apps/dota2/images/header/header_bg.jpg");
+     background-position: center center;
+     background-repeat: no-repeat;
+     height: 68px;
+     text-align: center;
+     width: 100%;
+}
+
+#mainContentWrap {
+     background: none repeat scroll 0% 0% #252627;
+     border-radius: 20px 20px 20px 20px;
+     box-shadow: 0px 0px 15px 15px #000000;
+     margin: 50px auto;
+     padding: 10px 0px;
+     width: 800px;
+}
+
+ul, ol {
+     clear: both;
+     list-style-type: none;
+}
+
+#mainContent {
+     margin: 20px;
+}
+
+.herolistsmall li {
+     float: left;
+     margin: 2px;
+}
+
+.herolistsmall li img {
+     border: 1px solid #888888;
+}
+
+.herolistsmall li.player128 {
+     margin-left: 20px;
+}
+
+.clear {
+     clear: both;
+}
+
+.MatchList {
+     background: none repeat scroll 0% 0% #0F191A;
+     width: 670px;
+}
+
+.MatchList div {
+    
+}
+
+.MatchList .matchId {
+     float: left;
+     padding: 1px 3px;
+}
+
+.MatchList .timeStart {
+     float: right;
+     padding: 1px 3px;
+}
